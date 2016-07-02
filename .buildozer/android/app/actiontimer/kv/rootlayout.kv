@@ -1,0 +1,26 @@
+<TimerWindow>:
+    id: canvas
+    orientation: 'vertical'
+    Button:
+        id: start
+        text: 'start'
+        on_press: root.changeTimerState()
+    BoxLayout:
+        orientation: 'horizontal'
+        IntervallInput:
+            id: updown1
+        IntervallInput:
+            id: updown2
+        IntervallInput:
+            id: updown3
+        IntervallInput:
+            id: updown4
+    Label:
+        id: time
+        font_size: root.width/7
+        text: root.number
+
+    Label:
+        id: state
+        font_size: root.width/7
+        text: root.state     
