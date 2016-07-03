@@ -87,7 +87,7 @@ buildozer -v android debug
 outside the virtual machine (USB-Debugging)
 -------------------------------------------
 
-adb devices
-cd my-dev/myproject/bin
-adb install -r test.apk
-adb logcat -d | grep -w python
+  adb devices
+  cd my-dev/myproject/bin
+  adb install -r test.apk
+  adb logcat -d | grep -w python
