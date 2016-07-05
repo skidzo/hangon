@@ -18,20 +18,21 @@ edit the Vagrantfile:
 
   config.vm.network "public_network"
   
-  # If true, then any SSH connections made will enable agent forwarding.
-  # Default value: false
-  config.ssh.forward_agent = true
-  config.ssh.forward_x11 = true
+   If true, then any SSH connections made will enable agent forwarding.
+   Default value: false
+   config.ssh.forward_agent = true
+   config.ssh.forward_x11 = true
   
   config.vm.provider :virtualbox do |vb|
     vb.customize ["modifyvm", :id, "--memory", "1024"]
   end
 
-#####################################################
+
 cd my-dev
 vagrant up
 vagrant ssh
-#####################################################
+
+
 everything is done inside a virtual machine
 
 kivy-install-process
