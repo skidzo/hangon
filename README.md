@@ -15,7 +15,7 @@ cd my-dev
 vagrant init larryli/vivid64
 
 edit the Vagrantfile:
-
+   ```  
   config.vm.network "public_network"
   
    If true, then any SSH connections made will enable agent forwarding.
@@ -26,7 +26,7 @@ edit the Vagrantfile:
   config.vm.provider :virtualbox do |vb|
     vb.customize ["modifyvm", :id, "--memory", "1024"]
   end
-
+   ```
 
 cd my-dev
 vagrant up
