@@ -10,9 +10,12 @@ python main.py
 install vagrant
 ---------------
 
+If you dont know vagrant, now the time to get started with!
+``` 
 mkdir my-dev
 cd my-dev
 vagrant init larryli/vivid64
+``` 
 
 edit the Vagrantfile:
 ```  
