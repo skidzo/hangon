@@ -58,9 +58,14 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+.buildozer/
+bin/
 
 # PyBuilder
 target/
+
+#Buildozer
+
 
 # virtualenv
 venv
