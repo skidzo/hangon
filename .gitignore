@@ -58,8 +58,8 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
-.buildozer/
-bin/
+.buildozer/*
+bin/*
 
 # PyBuilder
 target/
