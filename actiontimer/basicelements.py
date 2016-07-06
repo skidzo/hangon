@@ -1,20 +1,20 @@
 from __future__ import print_function
 
-from kivy.core.window import Window
+#from kivy.core.window import Window
 from kivy.uix.boxlayout import BoxLayout
-from kivy.lang import Builder
-from kivy.factory import Factory
-from kivy.base import runTouchApp
-from kivy.uix.button import Button, Label
-from kivy.uix.togglebutton import ToggleButton
-from kivy.uix.popup import Popup
-from kivy.uix.bubble import Bubble
-from kivy.uix.scrollview import ScrollView
-from kivy.uix.gridlayout import GridLayout
-from kivy.uix.anchorlayout import AnchorLayout
-from kivy.uix.behaviors.focus import FocusBehavior
-from kivy.properties import StringProperty, BooleanProperty, NumericProperty, ObjectProperty
-from kivy.clock import Clock
+#from kivy.lang import Builder
+#from kivy.factory import Factory
+#from kivy.base import runTouchApp
+#from kivy.uix.button import Button, Label
+#from kivy.uix.togglebutton import ToggleButton
+#from kivy.uix.popup import Popup
+#from kivy.uix.bubble import Bubble
+#from kivy.uix.scrollview import ScrollView
+#from kivy.uix.gridlayout import GridLayout
+#from kivy.uix.anchorlayout import AnchorLayout
+#from kivy.uix.behaviors.focus import FocusBehavior
+from kivy.properties import StringProperty#, BooleanProperty, NumericProperty, ObjectProperty
+#from kivy.clock import Clock
 
 import actiontimer
 
