@@ -1,7 +1,7 @@
 HangOn
 ======
 
-A simple timer using the python metapackage kivy for UI Interfaces, runs on Android!
+A simple timer using the python metapackage kivy https://kivy.org/#home for UI Interfaces, runs on Android!
 
 You can run this in your python environment, there are no requirements beyond kivy.
 ``` 
